@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maven Clinic</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="Login">
+    <section class="Login-box">
+        <img src="maven.png" alt="Maven" class="maven-logo" />
+        <p class="sign">Sign Up</p>
+        <p class="Welcome-signup">Welcome! Let’s set up your account.</p>
+        <form>
+            <div class="input-container">
+                <input type="email" id="email" placeholder=" " required>
+                <label for="email">Personal email*</label>
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" placeholder=" " required />
+                <label for="password">Password*</label>
+                <button type="button" class="togglePassword" aria-label="Show password" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); background:none; border:none; cursor:pointer; padding:0;">
+                    <span id="eyeIcon">&#128065;</span>
+                </button>    
+            </div>
+            <p class="maven-terms">
+                By registering with Maven, I acknowledge Maven's <a href="privacy policy.html" class="link">Privacy<br />
+                Policy</a> and have read and agree to Maven's <a href="terms.html" class="link">Terms of Use</a><br />
+                and <a href="consent.html" class="link">Consent to Services.</a>
+            </p>
+            <div class="sign-in-bgcolor">
+                <p class="sign-in">Register now</p>
+            </div>
+            <div class="already-have-account-container">
+                <p class="new-maven">Already have an account? <a href="login.html" class="create-account">Sign in</a></p>
+            </div>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
